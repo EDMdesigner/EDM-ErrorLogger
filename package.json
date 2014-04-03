@@ -1,5 +1,5 @@
 {
-  "name": "EDM-ErrorLogger",
+  "name": "edm-errorlogger",
   "version": "0.0.0",
   "description": "EDMdesigner's ErrorLogger used in multiple projects.",
   "main": "index.js",
