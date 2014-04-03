@@ -1,1 +1,1 @@
-module.exports = require("./lib/ErrorLogger")();
+module.exports = require("./lib/ErrorLogger");
