@@ -21,8 +21,9 @@ var Schema = mongoose.Schema;
 var errorsSchema = new Schema({
 	statusCode: {type: Number, required: true},
 	statusText:{type: String, required: true},
+	stack: {type: String},
 	dateTime: {type: Date, default: Date.now},
-	user: {type: Schema.ObjectId, ref: "User", required: false},
+	user: {type: String},
 	headers: {type: Schema.Types.Mixed}
 });
 
